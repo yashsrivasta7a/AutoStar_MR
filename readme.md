@@ -3,7 +3,7 @@
 AutoStar MR is a Chrome extension that automates the feedback submission process for MRIIRS and MRU.
 
 ## Demo  
-![AutoStar MR Demo](https://github.com/yashsrivasta7a/AutoStar_MR/tutorial.gif)  
+![AutoStar MR Demo](https://github.com/yashsrivasta7a/AutoStar_MR/Tutorial.gif)  
 
 ## Installation Guide
 
