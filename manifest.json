@@ -10,13 +10,11 @@
       "matches": ["https://mrei.icloudems.com/corecampus/quiz/student_feedback.php*"],
       "js": ["script.js"]
     }
-    
   ],
   "icons": {
-    "16": "AutoStar16.png",
-    "32": "AutoStar32.png",
-    "48": "AutoStar.png",
-    "128": "AutoStar.png"
+    "16": "logo/AutoStar16.png",
+    "32": "logo/AutoStar32.png",
+    "48": "logo/AutoStar.png",
+    "128": "logo/AutoStar.png"
   }
-  
 }
