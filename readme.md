@@ -42,5 +42,5 @@ To remove the extension:
 Feel free to open issues and pull requests to improve the extension.
 
 ## License
-Yash Srivastava
+MIT license
 
