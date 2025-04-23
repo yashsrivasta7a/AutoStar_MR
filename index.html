@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Star</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1a1a2e;
+            color: #e0e0e0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .card {
+            background: rgba(38, 38, 65, 0.9);
+            padding: 20px 30px; /* Reduced padding */
+            border-radius: 24px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            width: 250px; /* Reduced width */
+            z-index: 1;
+        }
+
+        h1 {
+            font-size: 20px; /* Slightly smaller font size */
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+
+        p {
+            font-size: 13px; /* Slightly smaller font size */
+            color: #d1d1e9;
+            margin-bottom: 15px; /* Reduced margin */
+        }
+
+        #select-stars-btn {
+            padding: 10px 20px; /* Reduced button size */
+            font-size: 14px; /* Slightly smaller font size */
+            color: #ffffff;
+            background-color: #6a0dad;
+            border: none;
+            border-radius: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.2s ease;
+            margin-bottom: 15px; /* Reduced margin */
+        }
+
+        #select-stars-btn:hover {
+            background-color: #4b0082;
+            transform: scale(1.05);
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #d1d1e9;
+            text-align: center;
+        }
+
+        .footer a {
+            color: #d1d1e9;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer a:hover {
+            color: #ffffff;
+        }
+
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="card">
+        <h1>Auto Star</h1>
+        <p>Automatically give 5-star ratings on feedback forms.</p>
+        <button id="select-stars-btn">Give 5 Stars</button>
+        <div class="footer">
+            <a href="https://github.com/yashsrivasta7a" target="_blank">⭐ Star this Repo</a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            particles: {
+                number: { value: 80, density: { enable: true, value_area: 800 } },
+                color: { value: "#ffffff" },
+                shape: {
+                    type: "circle",
+                    stroke: { width: 0, color: "#000000" },
+                    polygon: { nb_sides: 5 },
+                },
+                opacity: {
+                    value: 0.5,
+                    random: false,
+                    anim: { enable: false, speed: 1, opacity_min: 0.1, sync: false },
+                },
+                size: {
+                    value: 3,
+                    random: true,
+                    anim: { enable: false, speed: 40, size_min: 0.1, sync: false },
+                },
+                line_linked: {
+                    enable: true,
+                    distance: 150,
+                    color: "#ffffff",
+                    opacity: 0.4,
+                    width: 1,
+                },
+                move: {
+                    enable: true,
+                    speed: 6,
+                    direction: "none",
+                    random: false,
+                    straight: false,
+                    out_mode: "out",
+                    bounce: false,
+                    attract: { enable: false, rotateX: 600, rotateY: 1200 },
+                },
+            },
+            interactivity: {
+                detect_on: "canvas",
+                events: {
+                    onhover: { enable: true, mode: "repulse" },
+                    onclick: { enable: true, mode: "push" },
+                    resize: true,
+                },
+                modes: {
+                    grab: { distance: 400, line_linked: { opacity: 1 } },
+                    bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 },
+                    repulse: { distance: 200, duration: 0.4 },
+                    push: { particles_nb: 4 },
+                    remove: { particles_nb: 2 },
+                },
+            },
+            retina_detect: true,
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>

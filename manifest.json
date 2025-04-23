@@ -5,6 +5,9 @@
   "description": "Automatically selects all 5 stars for teacher feedback.",
   "permissions": ["activeTab", "scripting"],
   "host_permissions": ["https://mrei.icloudems.com/*"],
+  "action": {
+    "default_popup": "index.html"
+  },
   "content_scripts": [
     {
       "matches": ["https://mrei.icloudems.com/corecampus/quiz/student_feedback.php*"],
