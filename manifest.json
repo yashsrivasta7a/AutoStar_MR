@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Auto Star",
-  "version": "1.0",
+  "version": "2.0",
   "description": "Automatically selects all 5 stars for teacher feedback.",
   "permissions": ["activeTab", "scripting"],
   "host_permissions": ["https://mrei.icloudems.com/*"],
@@ -15,9 +15,9 @@
     }
   ],
   "icons": {
-    "16": "logo/AutoStar16.png",
-    "32": "logo/AutoStar32.png",
-    "48": "logo/AutoStar.png",
-    "128": "logo/AutoStar.png"
+    "16": "logo/16.jpg",
+    "32":"logo/48.jpg",
+    "48": "logo/48.jpg",
+    "128": "logo/128x128.png"
   }
 }
