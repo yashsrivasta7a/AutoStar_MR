@@ -3,7 +3,6 @@
   "name": "Auto Star",
   "version": "2.0",
   "description": "Automatically selects all 5 stars for teacher feedback.",
-  "permissions": ["activeTab", "scripting"],
   "host_permissions": ["https://mrei.icloudems.com/*"],
   "action": {
     "default_popup": "index.html"
