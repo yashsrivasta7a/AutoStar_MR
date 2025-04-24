@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Auto Star",
-  "version": "2.0",
+  "version": "2.1",
   "description": "Automatically selects all 5 stars for teacher feedback.",
   "host_permissions": ["https://mrei.icloudems.com/*"],
   "action": {
